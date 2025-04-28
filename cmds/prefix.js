@@ -17,7 +17,7 @@ module.exports = {
         const { threadID, messageID } = event;
         const botPrefix = config.prefix || "/";
         const botName = config.botName || "My Bot";
-        const gifUrl = "https://media.giphy.com/media/1UwhOK8VX95TcfPBML/giphy.gif";
+        const gifUrl = "https://c.tenor.com/kwFCNw_CSygAAAAd/tenor.gif";
         const tempFilePath = path.join(__dirname, "prefix.gif");
 
         try {
